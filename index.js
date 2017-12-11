@@ -23,7 +23,7 @@ exports.create = function (api) {
     ta.oninput = function () {
       clearTimeout(timer)
       if(ta.value == '') {
-        delete localStorage[context.path]
+        localStorage.removeItem(context.path)
         button.disabled = true
         return
       }
