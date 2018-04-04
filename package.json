@@ -8,7 +8,10 @@
     "url": "git://github.com/dominictarr/patchcompose-drafts.git"
   },
   "dependencies": {
-    "hyperscript": "^2.0.2"
+    "base64-url": "^2.1.0",
+    "hyperscript": "^2.0.2",
+    "pull-stream": "^3.6.7",
+    "ssb-ref": "^2.9.1"
   },
   "devDependencies": {},
   "scripts": {
